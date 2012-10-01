@@ -36,6 +36,7 @@ The JSONParserDelegate includes a callback which provides the current dictionary
 * Fully configurable 
 	- Parsing whole data at a time and receiving a in-memory rootObject
 	- Receive callbacks (used for huge amount of data)
+* Can parse large amount of data (above 20MB) easily.
   
   
   
