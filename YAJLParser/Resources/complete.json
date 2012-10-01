@@ -1,0 +1,14 @@
+{
+    "menu":{
+        "header":"SVG Viewer",
+        "items":[
+                 {
+                 "id":"Open"
+                 },
+                 {
+                 "id":"OpenNew",
+                 "label":"Open New"
+                 }
+                 ]
+    }
+}
