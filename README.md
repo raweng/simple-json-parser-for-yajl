@@ -18,8 +18,7 @@ End developer should not have to deal with the SAX-events and their implementati
 The JSONParserDelegate provides a callback which provides the current dictionary with its key and parents, so that response could be handled accordingly.
 
 
-# JSONParserDelegate methods
-
+####JSONParserDelegate methods
 - (void)dictionary:(NSMutableDictionary*)dictionary forKey:(NSString*)key withParents:(NSString*)parents {
     // Handle response accordingly.
     NSLog(@"<key>: %@; <parents>: %@", key, parents);
@@ -32,15 +31,15 @@ The YAJLViewController in this repository shows the usage of JSONParser.
 
 
 
-Features:
-1. SAX-style parsing for json.
-2. Eliminates the SAX implementation complexities.
-3. Parses the complete data or chunks of data.
-4. Fully configurable 
-	- Parse whole data at a time and receiving a in-memory rootObject
-	- Receive callbacks (used for huge amount of data)
+#### Features:
+* SAX-style parsing for json.
+* Eliminates the SAX implementation complexities.
+* Parses the complete data or chunks of data.
+* Fully configurable 
+	* Parse whole data at a time and receiving a in-memory rootObject
+	* Receive callbacks (used for huge amount of data)
 
 
 
-Dependencies:
+#### Dependencies:
 YAJL framework
