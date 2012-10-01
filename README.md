@@ -19,7 +19,7 @@ The JSONParserDelegate includes a callback which provides the current dictionary
   
    
 
-####JSONParserDelegate methods
+###### JSONParserDelegate methods
 \- (void)dictionary:(NSMutableDictionary*)dictionary forKey:(NSString*)key withParents:(NSString*)parents {
     // Handle response accordingly.
     NSLog(@"<key>: %@; <parents>: %@", key, parents);
