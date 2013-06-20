@@ -10,7 +10,10 @@
 #import "JSONParser.h"
 
 @interface YAJLViewController : UIViewController<JSONParserDelegate> {
-    
+    UIButton *parseStreamJSONButton;
+    UIButton *parseCompleteJSONButton;
+    UILabel *outputLabel;
+    UITextView *outputTextView;
 }
 
 @property (nonatomic, strong)JSONParser *parser;
