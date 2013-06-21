@@ -101,8 +101,10 @@
     self.parser = [[JSONParser alloc] init];
     self.parser.JSONParserDelegate = self;
     self.parser.receiveEvents = YES;
-    [self.parser parse:chunk1];
-    [self.parser parse:chunk2];
+    
+    //parse partial data as it comes
+    [self.parser parse:chunk1]; // parse chunk1
+    [self.parser parse:chunk2]; // parse chunk2
     
     NSLog(@"====== END parseStreamJSON");
     NSLog(@"================================================\n");
