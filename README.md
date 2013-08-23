@@ -49,4 +49,4 @@ The YAJLViewController in this repository shows the usage of JSONParser.
 
 
 #### License
-http://gautam.mit-license.org/
+[MIT License] (http://raweng.mit-license.org/ "MIT License")
