@@ -1,4 +1,4 @@
-SimpleJSONParserForYAJL
+Simple JSONParser For YAJL
 =======================
 
 Simple JSON Parser For YAJL is a wrapper which allows you to parse JSON data with an event-driven model of SAX, but eliminates the need to implement the complex SAX interface (i.e.: number of callback methods that will be called when events occur during parsing).  
