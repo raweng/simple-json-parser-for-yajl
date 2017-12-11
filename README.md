@@ -1,3 +1,7 @@
+#### Blog:
+
+[https://www.built.io/blog/simple-json-parser-for-yajl](https://www.built.io/blog/simple-json-parser-for-yajl)
+
 Simple JSONParser For YAJL
 =======================
 
