@@ -1,6 +1,3 @@
-#### Blog:
-[https://www.built.io/blog/2014/04/creating-custom-loading-animations-for-android/] (https://www.built.io/blog/2014/04/creating-custom-loading-animations-for-android/ "https://www.built.io/blog/2014/04/creating-custom-loading-animations-for-android/")
-
 Simple JSONParser For YAJL
 =======================
 
